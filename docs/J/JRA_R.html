@@ -221,7 +221,9 @@
                       <ul class="navbar-nav ms-auto mt-2 mt-lg-0"><li class="nav-item"><a  class="nav-link" href="../J/JRA_E.html">Prev</a></li><h1 class="nav-item">JRA-R</h1></ul>                  </div>
               </nav>
               <!-- Page content-->
-              <div class="container-fluid">
+              <input data-stork="foo" />
+<div data-stork="foo-output"></div>
+              <main class="container-fluid">
                   <h1 class="title">STUDENT EDUCATIONAL RECORDS</h1>
                   <h2 id="administrative-procedure">ADMINISTRATIVE
                   PROCEDURE</h2>
@@ -583,7 +585,7 @@
                   <div class="line-block">1<sup>st</sup> Reading:
                   September 11, 2010<br />
                   Adopted: May 27, 2011</div>
-              </div>
+              </main>
           </div>
       </div>
       <!-- Bootstrap core JS-->
@@ -591,10 +593,12 @@
       <!-- Core theme JS-->
       <script src="../js/bootstrap.min.js"></script>
       <script src="../js/scripts.js"></script>
-
+      <script src="https://files.stork-search.net/releases/v1.4.2/stork.js"></script>
       <!-- <script src="../js/jquery.slim.min.js" ></script> -->
       <!-- <script src="../js/popper.min.js" ></script> -->
-
+      <script>
+        stork.register("foo", "../stork_index.st");
+    </script>
             <!-- Add comment hosting service here -->
             <!-- Footer -->
             <footer class="footer text-muted">

@@ -221,7 +221,9 @@
                       <ul class="navbar-nav ms-auto mt-2 mt-lg-0"><li class="nav-item"><a  class="nav-link" href="../J/JJIF_E.html">Prev</a></li><h1 class="nav-item">JKAA</h1><li class="nav-item"><a  class="nav-link" href="../J/JKAA_R.html">Next</a></li></ul>                  </div>
               </nav>
               <!-- Page content-->
-              <div class="container-fluid">
+              <input data-stork="foo" />
+<div data-stork="foo-output"></div>
+              <main class="container-fluid">
                   <h1 class="title">USE OF PHYSICAL RESTRAINT AND
 SECLUSION</h1>
                   <p>The Maine School of Science and Mathematics Board
@@ -369,7 +371,7 @@ SECLUSION</h1>
                   2016<br />
                   1<sup>st</sup> Reading: May 27, 2016<br />
                   2<sup>nd</sup> Reading: October 1, 2016</div>
-              </div>
+              </main>
           </div>
       </div>
       <!-- Bootstrap core JS-->
@@ -377,10 +379,12 @@ SECLUSION</h1>
       <!-- Core theme JS-->
       <script src="../js/bootstrap.min.js"></script>
       <script src="../js/scripts.js"></script>
-
+      <script src="https://files.stork-search.net/releases/v1.4.2/stork.js"></script>
       <!-- <script src="../js/jquery.slim.min.js" ></script> -->
       <!-- <script src="../js/popper.min.js" ></script> -->
-
+      <script>
+        stork.register("foo", "../stork_index.st");
+    </script>
             <!-- Add comment hosting service here -->
             <!-- Footer -->
             <footer class="footer text-muted">

@@ -221,7 +221,9 @@
                       <ul class="navbar-nav ms-auto mt-2 mt-lg-0"><li class="nav-item"><a  class="nav-link" href="../G/GCSA_R.html">Prev</a></li><h1 class="nav-item">GCSB</h1><li class="nav-item"><a  class="nav-link" href="../G/GDB.html">Next</a></li></ul>                  </div>
               </nav>
               <!-- Page content-->
-              <div class="container-fluid">
+              <input data-stork="foo" />
+<div data-stork="foo-output"></div>
+              <main class="container-fluid">
                   <h1 class="title">SOCIAL MEDIA USE BY SCHOOL
 EMPLOYEES</h1>
                   <p>This policy addresses the personal use of social
@@ -300,7 +302,7 @@ EMPLOYEES</h1>
                   2016<br />
                   1<sup>st</sup> Reading: May 27, 2016<br />
                   2<sup>nd</sup> Reading:</div>
-              </div>
+              </main>
           </div>
       </div>
       <!-- Bootstrap core JS-->
@@ -308,10 +310,12 @@ EMPLOYEES</h1>
       <!-- Core theme JS-->
       <script src="../js/bootstrap.min.js"></script>
       <script src="../js/scripts.js"></script>
-
+      <script src="https://files.stork-search.net/releases/v1.4.2/stork.js"></script>
       <!-- <script src="../js/jquery.slim.min.js" ></script> -->
       <!-- <script src="../js/popper.min.js" ></script> -->
-
+      <script>
+        stork.register("foo", "../stork_index.st");
+    </script>
             <!-- Add comment hosting service here -->
             <!-- Footer -->
             <footer class="footer text-muted">

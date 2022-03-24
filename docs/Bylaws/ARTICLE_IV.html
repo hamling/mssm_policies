@@ -221,13 +221,15 @@
                       <ul class="navbar-nav ms-auto mt-2 mt-lg-0"><li class="nav-item"><a  class="nav-link" href="../Bylaws/ARTICLE_III.html">Prev</a></li><h1 class="nav-item">ARTICLE IV</h1><li class="nav-item"><a  class="nav-link" href="../Bylaws/ARTICLE_V.html">Next</a></li></ul>                  </div>
               </nav>
               <!-- Page content-->
-              <div class="container-fluid">
+              <input data-stork="foo" />
+<div data-stork="foo-output"></div>
+              <main class="container-fluid">
                   <h1 class="title">Discrimination</h1>
                   <p>In administering its affairs, the School shall not
                   discriminate against any person on the basis of race,
                   creed, color, national or ethnic origin, sex, sexual
                   orientation, age, or disability.</p>
-              </div>
+              </main>
           </div>
       </div>
       <!-- Bootstrap core JS-->
@@ -235,10 +237,12 @@
       <!-- Core theme JS-->
       <script src="../js/bootstrap.min.js"></script>
       <script src="../js/scripts.js"></script>
-
+      <script src="https://files.stork-search.net/releases/v1.4.2/stork.js"></script>
       <!-- <script src="../js/jquery.slim.min.js" ></script> -->
       <!-- <script src="../js/popper.min.js" ></script> -->
-
+      <script>
+        stork.register("foo", "../stork_index.st");
+    </script>
             <!-- Add comment hosting service here -->
             <!-- Footer -->
             <footer class="footer text-muted">

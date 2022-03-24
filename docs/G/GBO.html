@@ -221,7 +221,9 @@
                       <ul class="navbar-nav ms-auto mt-2 mt-lg-0"><li class="nav-item"><a  class="nav-link" href="../G/GBI.html">Prev</a></li><h1 class="nav-item">GBO</h1><li class="nav-item"><a  class="nav-link" href="../G/GCBD.html">Next</a></li></ul>                  </div>
               </nav>
               <!-- Page content-->
-              <div class="container-fluid">
+              <input data-stork="foo" />
+<div data-stork="foo-output"></div>
+              <main class="container-fluid">
                   <h1 class="title">SICK LEAVE</h1>
                   <p>MSSM has established a Sick Leave policy for
                   regular full-time and part-time employees to lessen
@@ -290,7 +292,7 @@
                   2012<br />
                   1<sup>st</sup> Reading: December 1, 2012<br />
                   Adopted: March 16, 2013</div>
-              </div>
+              </main>
           </div>
       </div>
       <!-- Bootstrap core JS-->
@@ -298,10 +300,12 @@
       <!-- Core theme JS-->
       <script src="../js/bootstrap.min.js"></script>
       <script src="../js/scripts.js"></script>
-
+      <script src="https://files.stork-search.net/releases/v1.4.2/stork.js"></script>
       <!-- <script src="../js/jquery.slim.min.js" ></script> -->
       <!-- <script src="../js/popper.min.js" ></script> -->
-
+      <script>
+        stork.register("foo", "../stork_index.st");
+    </script>
             <!-- Add comment hosting service here -->
             <!-- Footer -->
             <footer class="footer text-muted">

@@ -221,7 +221,9 @@
                       <ul class="navbar-nav ms-auto mt-2 mt-lg-0"><li class="nav-item"><a  class="nav-link" href="../Bylaws/ARTICLE_I.html">Prev</a></li><h1 class="nav-item">ARTICLE II</h1><li class="nav-item"><a  class="nav-link" href="../Bylaws/ARTICLE_III.html">Next</a></li></ul>                  </div>
               </nav>
               <!-- Page content-->
-              <div class="container-fluid">
+              <input data-stork="foo" />
+<div data-stork="foo-output"></div>
+              <main class="container-fluid">
                   <h1 class="title">Meetings</h1>
                   <p><strong>Section 201. Regular Meetings.</strong>
                   (20-A MRSA §8204) There shall be at least four regular
@@ -340,7 +342,7 @@
                   <p>There are no fixed terms nor any attendance
                   requirements nor any entitlement to compensation or
                   reimbursement for expenses for Honorary Trustees.</p>
-              </div>
+              </main>
           </div>
       </div>
       <!-- Bootstrap core JS-->
@@ -348,10 +350,12 @@
       <!-- Core theme JS-->
       <script src="../js/bootstrap.min.js"></script>
       <script src="../js/scripts.js"></script>
-
+      <script src="https://files.stork-search.net/releases/v1.4.2/stork.js"></script>
       <!-- <script src="../js/jquery.slim.min.js" ></script> -->
       <!-- <script src="../js/popper.min.js" ></script> -->
-
+      <script>
+        stork.register("foo", "../stork_index.st");
+    </script>
             <!-- Add comment hosting service here -->
             <!-- Footer -->
             <footer class="footer text-muted">

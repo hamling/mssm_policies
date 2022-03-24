@@ -221,7 +221,9 @@
                       <ul class="navbar-nav ms-auto mt-2 mt-lg-0"><li class="nav-item"><a  class="nav-link" href="../Bylaws/ARTICLE_V.html">Prev</a></li><h1 class="nav-item">AACC</h1><li class="nav-item"><a  class="nav-link" href="../A/AACC_R.html">Next</a></li></ul>                  </div>
               </nav>
               <!-- Page content-->
-              <div class="container-fluid">
+              <input data-stork="foo" />
+<div data-stork="foo-output"></div>
+              <main class="container-fluid">
                   <h1 class="title">TRAFTON HOUSING POLICY</h1>
                   <p>The Executive Director shall develop procedures for
                   occupancy of the housing units on Trafton Avenue and
@@ -232,7 +234,7 @@
                   1<sup>st</sup> Reading: Sept. 6, 2014<br />
                   Revised from Sept. 10, 2011<br />
                   2<sup>nd</sup> Reading: March 14, 2015</div>
-              </div>
+              </main>
           </div>
       </div>
       <!-- Bootstrap core JS-->
@@ -240,10 +242,12 @@
       <!-- Core theme JS-->
       <script src="../js/bootstrap.min.js"></script>
       <script src="../js/scripts.js"></script>
-
+      <script src="https://files.stork-search.net/releases/v1.4.2/stork.js"></script>
       <!-- <script src="../js/jquery.slim.min.js" ></script> -->
       <!-- <script src="../js/popper.min.js" ></script> -->
-
+      <script>
+        stork.register("foo", "../stork_index.st");
+    </script>
             <!-- Add comment hosting service here -->
             <!-- Footer -->
             <footer class="footer text-muted">

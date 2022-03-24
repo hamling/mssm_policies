@@ -221,7 +221,9 @@
                       <ul class="navbar-nav ms-auto mt-2 mt-lg-0"><li class="nav-item"><a  class="nav-link" href="../I/ILD.html">Prev</a></li><h1 class="nav-item">JCA</h1><li class="nav-item"><a  class="nav-link" href="../J/JFAA.html">Next</a></li></ul>                  </div>
               </nav>
               <!-- Page content-->
-              <div class="container-fluid">
+              <input data-stork="foo" />
+<div data-stork="foo-output"></div>
+              <main class="container-fluid">
                   <h1 class="title">TRANSGENDER AND GENDER NONCONFORMING
 STUDENTS</h1>
                   <ol type="I">
@@ -492,7 +494,7 @@ STUDENTS</h1>
                   28, 2021<br />
                   2<sup>nd</sup> Reading: September 25, 2021<br />
                   Adopted: September 25, 2021</div>
-              </div>
+              </main>
           </div>
       </div>
       <!-- Bootstrap core JS-->
@@ -500,10 +502,12 @@ STUDENTS</h1>
       <!-- Core theme JS-->
       <script src="../js/bootstrap.min.js"></script>
       <script src="../js/scripts.js"></script>
-
+      <script src="https://files.stork-search.net/releases/v1.4.2/stork.js"></script>
       <!-- <script src="../js/jquery.slim.min.js" ></script> -->
       <!-- <script src="../js/popper.min.js" ></script> -->
-
+      <script>
+        stork.register("foo", "../stork_index.st");
+    </script>
             <!-- Add comment hosting service here -->
             <!-- Footer -->
             <footer class="footer text-muted">

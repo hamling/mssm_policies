@@ -221,7 +221,9 @@
                       <ul class="navbar-nav ms-auto mt-2 mt-lg-0"><li class="nav-item"><a  class="nav-link" href="../B/BBAB.html">Prev</a></li><h1 class="nav-item">BCA</h1><li class="nav-item"><a  class="nav-link" href="../B/BCB.html">Next</a></li></ul>                  </div>
               </nav>
               <!-- Page content-->
-              <div class="container-fluid">
+              <input data-stork="foo" />
+<div data-stork="foo-output"></div>
+              <main class="container-fluid">
                   <h1 class="title">BOARD MEMBER CODE OF ETHICS</h1>
                   <p>Having accepted the challenge of service on this
                   Board, I accept the principles set forth in the
@@ -305,7 +307,7 @@
                   2013<br />
                   1<sup>st</sup> Reading: December 7, 2013<br />
                   2<sup>nd</sup> Reading: March 15, 2014</div>
-              </div>
+              </main>
           </div>
       </div>
       <!-- Bootstrap core JS-->
@@ -313,10 +315,12 @@
       <!-- Core theme JS-->
       <script src="../js/bootstrap.min.js"></script>
       <script src="../js/scripts.js"></script>
-
+      <script src="https://files.stork-search.net/releases/v1.4.2/stork.js"></script>
       <!-- <script src="../js/jquery.slim.min.js" ></script> -->
       <!-- <script src="../js/popper.min.js" ></script> -->
-
+      <script>
+        stork.register("foo", "../stork_index.st");
+    </script>
             <!-- Add comment hosting service here -->
             <!-- Footer -->
             <footer class="footer text-muted">

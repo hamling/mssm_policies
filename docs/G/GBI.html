@@ -221,7 +221,9 @@
                       <ul class="navbar-nav ms-auto mt-2 mt-lg-0"><li class="nav-item"><a  class="nav-link" href="../G/GBEC.html">Prev</a></li><h1 class="nav-item">GBI</h1><li class="nav-item"><a  class="nav-link" href="../G/GBO.html">Next</a></li></ul>                  </div>
               </nav>
               <!-- Page content-->
-              <div class="container-fluid">
+              <input data-stork="foo" />
+<div data-stork="foo-output"></div>
+              <main class="container-fluid">
                   <h1 class="title">Staff Gifts and Solicitations</h1>
                   <p>Employees of the Maine School of Science and
                   Mathematics (MSSM) may not accept any monetary gifts
@@ -249,7 +251,7 @@
                   <div class="line-block">Implemented: May 3, 2016<br />
                   First Reading: June 3, 2017<br />
                   Second Reading: September 30, 2017</div>
-              </div>
+              </main>
           </div>
       </div>
       <!-- Bootstrap core JS-->
@@ -257,10 +259,12 @@
       <!-- Core theme JS-->
       <script src="../js/bootstrap.min.js"></script>
       <script src="../js/scripts.js"></script>
-
+      <script src="https://files.stork-search.net/releases/v1.4.2/stork.js"></script>
       <!-- <script src="../js/jquery.slim.min.js" ></script> -->
       <!-- <script src="../js/popper.min.js" ></script> -->
-
+      <script>
+        stork.register("foo", "../stork_index.st");
+    </script>
             <!-- Add comment hosting service here -->
             <!-- Footer -->
             <footer class="footer text-muted">

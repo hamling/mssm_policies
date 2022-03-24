@@ -221,7 +221,9 @@
                       <ul class="navbar-nav ms-auto mt-2 mt-lg-0"><li class="nav-item"><a  class="nav-link" href="../A/AACC.html">Prev</a></li><h1 class="nav-item">AACC-R</h1><li class="nav-item"><a  class="nav-link" href="../A/AC.html">Next</a></li></ul>                  </div>
               </nav>
               <!-- Page content-->
-              <div class="container-fluid">
+              <input data-stork="foo" />
+<div data-stork="foo-output"></div>
+              <main class="container-fluid">
                   <h1 class="title">TRAFTON HOUSING PROCEDURE</h1>
                   <p>Whereas the administration of the Maine School of
                   Science and Mathematics desires to build a close sense
@@ -366,7 +368,7 @@
                   Revised from December 8, 2012<br />
                   2<sup>nd</sup> Reading: May 23, 2014<br />
                   Revised from March 16, 2013</div>
-              </div>
+              </main>
           </div>
       </div>
       <!-- Bootstrap core JS-->
@@ -374,10 +376,12 @@
       <!-- Core theme JS-->
       <script src="../js/bootstrap.min.js"></script>
       <script src="../js/scripts.js"></script>
-
+      <script src="https://files.stork-search.net/releases/v1.4.2/stork.js"></script>
       <!-- <script src="../js/jquery.slim.min.js" ></script> -->
       <!-- <script src="../js/popper.min.js" ></script> -->
-
+      <script>
+        stork.register("foo", "../stork_index.st");
+    </script>
             <!-- Add comment hosting service here -->
             <!-- Footer -->
             <footer class="footer text-muted">

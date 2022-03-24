@@ -221,7 +221,9 @@
                       <ul class="navbar-nav ms-auto mt-2 mt-lg-0"><li class="nav-item"><a  class="nav-link" href="../Bylaws/ARTICLE_IV.html">Prev</a></li><h1 class="nav-item">ARTICLE V</h1><li class="nav-item"><a  class="nav-link" href="../A/AACC.html">Next</a></li></ul>                  </div>
               </nav>
               <!-- Page content-->
-              <div class="container-fluid">
+              <input data-stork="foo" />
+<div data-stork="foo-output"></div>
+              <main class="container-fluid">
                   <h1 class="title">Amendment of Bylaws</h1>
                   <p>These bylaws may be amended at any regular or
                   special meeting of the Board of Trustees by an
@@ -230,7 +232,7 @@
                   proposed amendment is sent to all trustees ten days
                   prior to the meeting at which the amendment is to be
                   voted upon.</p>
-              </div>
+              </main>
           </div>
       </div>
       <!-- Bootstrap core JS-->
@@ -238,10 +240,12 @@
       <!-- Core theme JS-->
       <script src="../js/bootstrap.min.js"></script>
       <script src="../js/scripts.js"></script>
-
+      <script src="https://files.stork-search.net/releases/v1.4.2/stork.js"></script>
       <!-- <script src="../js/jquery.slim.min.js" ></script> -->
       <!-- <script src="../js/popper.min.js" ></script> -->
-
+      <script>
+        stork.register("foo", "../stork_index.st");
+    </script>
             <!-- Add comment hosting service here -->
             <!-- Footer -->
             <footer class="footer text-muted">

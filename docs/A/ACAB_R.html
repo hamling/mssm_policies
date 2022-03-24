@@ -222,7 +222,9 @@ HARASSMENT COMPLAINT PROCEDURES</title>
                       <ul class="navbar-nav ms-auto mt-2 mt-lg-0"><li class="nav-item"><a  class="nav-link" href="../A/ACAB.html">Prev</a></li><h1 class="nav-item">ACAB-R</h1><li class="nav-item"><a  class="nav-link" href="../A/ACAD.html">Next</a></li></ul>                  </div>
               </nav>
               <!-- Page content-->
-              <div class="container-fluid">
+              <input data-stork="foo" />
+<div data-stork="foo-output"></div>
+              <main class="container-fluid">
                   <h1 class="title">EMPLOYEE DISCRIMINATION/HARASSMENT
 AND TITLE IX SEXUAL HARASSMENT COMPLAINT PROCEDURES</h1>
                   <p>The Board has adopted these employee procedures in
@@ -980,7 +982,7 @@ AND TITLE IX SEXUAL HARASSMENT COMPLAINT PROCEDURES</h1>
                   <div class="line-block">Adopted: September 8,
                   2012<br />
                   Revised: August 14, 2020</div>
-              </div>
+              </main>
           </div>
       </div>
       <!-- Bootstrap core JS-->
@@ -988,10 +990,12 @@ AND TITLE IX SEXUAL HARASSMENT COMPLAINT PROCEDURES</h1>
       <!-- Core theme JS-->
       <script src="../js/bootstrap.min.js"></script>
       <script src="../js/scripts.js"></script>
-
+      <script src="https://files.stork-search.net/releases/v1.4.2/stork.js"></script>
       <!-- <script src="../js/jquery.slim.min.js" ></script> -->
       <!-- <script src="../js/popper.min.js" ></script> -->
-
+      <script>
+        stork.register("foo", "../stork_index.st");
+    </script>
             <!-- Add comment hosting service here -->
             <!-- Footer -->
             <footer class="footer text-muted">
