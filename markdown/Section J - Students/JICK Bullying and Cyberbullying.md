@@ -216,7 +216,7 @@ VI. Responding
     C.  Apply disciplinary actions, which may include but are not
         limited to, imposing a series of graduated consequences and
         alternative discipline. In determining the appropriate response
-        to students who engage in bullying behavior, the Dean of Stud
+        to students who engage in bullying behavior, the Dean of Students
         should consider the type of behaviors, the frequency and/or
         pattern of behaviors, and other relevant circumstances.
         Disciplinary action includes, but is not limited to:
